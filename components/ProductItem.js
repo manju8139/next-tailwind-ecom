@@ -8,7 +8,7 @@ export default function ProductItem({ product }) {
                 <img
                     src={product.image}
                     alt={product.name}
-                    className='rounded shadow' />
+                    className='rounded shadow object-contain h-80 items-center' />
             </Link>
             <div className='flex flex-col items-center justify-center p-5'>
                 <Link href={`/product/${product.slug}`}>
